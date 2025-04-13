@@ -43,11 +43,26 @@
   color: #91959C;
 }
 /* MailerLite Overrides */
-#mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+#mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 100% !important;
+}
+body #mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
   text-indent: -1000em;
   background-image: url('images/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
+  padding: 14px !important;
+}
+body #mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  border-radius: 8px !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  color: #0F0F11 !important;
+  padding: 14px !important;
+}
+body #mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::placeholder {
+  color: #70747A !important;
 }
 #mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody {
   padding: 0 !important;
@@ -55,9 +70,15 @@
 #mlb2-24726043.ml-form-embedContainer .ml-form-align-center {
   text-align: left !important;
 }
-#mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
-  max-width: 300px !important;
+#mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent {
+  margin-bottom: 8px !important;
 }
+#mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  margin-bottom: 0 !important;
+}
+/* #mlb2-24726043.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 300px !important;
+} */
 </style>
 <!-- MailerLite Universal -->
 <script>
